@@ -815,6 +815,7 @@
 	},
 /turf/open/floor/iron/dark)
 "awe" = (
+/obj/structure/flora/bush/generic/style_random,
 /turf/open/water/jungle/biodome,
 /area/station/common/cryopods)
 "awu" = (
@@ -5777,6 +5778,7 @@
 /area/station/medical/lower)
 "cUH" = (
 /obj/machinery/light/directional/east,
+/obj/structure/flora/bush/jungle/a/style_random,
 /turf/open/water/jungle/biodome,
 /area/station/common/cryopods)
 "cUL" = (
@@ -12564,6 +12566,11 @@
 	},
 /turf/closed/wall/r_wall,
 /area/station/ai_monitored/security/armory)
+"ged" = (
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/stalky/style_random,
+/turf/open/water/jungle/biodome,
+/area/station/common/cryopods)
 "gei" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8
@@ -12794,6 +12801,11 @@
 "gjJ" = (
 /turf/open/floor/wood,
 /area/station/hallway/secondary/entry)
+"gjK" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/large/style_random,
+/turf/open/water/jungle/biodome,
+/area/station/common/cryopods)
 "gke" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/machinery/light/directional/south,
@@ -14367,6 +14379,7 @@
 /obj/machinery/camera/autoname{
 	dir = 8
 	},
+/obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/floor/grass,
 /area/station/common/cryopods)
 "gXe" = (
@@ -17479,6 +17492,7 @@
 	dir = 4
 	},
 /obj/machinery/light/directional/north,
+/obj/structure/flora/bush/generic/style_random,
 /turf/open/floor/grass,
 /area/station/common/cryopods)
 "ixX" = (
@@ -18106,6 +18120,9 @@
 /turf/open/floor/engine,
 /area/station/maintenance/disposal/incinerator)
 "iOB" = (
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
 /area/station/common/cryopods)
 "iOI" = (
@@ -21520,6 +21537,14 @@
 	icon_state = "plating_rust"
 	},
 /area/station/maintenance/department/engine/mid)
+"kxX" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/structure/flora/bush/stalky/style_random,
+/turf/open/floor/grass,
+/area/station/common/cryopods)
 "kxZ" = (
 /obj/structure/railing,
 /turf/open/openspace,
@@ -21612,6 +21637,9 @@
 /area/station/security/checkpoint/supply)
 "kzF" = (
 /obj/effect/landmark/generic_maintenance_landmark,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/jungle/a/style_random,
 /turf/open/floor/grass,
 /area/station/common/cryopods)
 "kzO" = (
@@ -25509,6 +25537,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
 /area/station/common/cryopods)
 "mHe" = (
@@ -36570,6 +36599,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
+"rSO" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/bush/generic/style_random,
+/turf/open/floor/grass,
+/area/station/common/cryopods)
 "rSR" = (
 /obj/structure/railing{
 	dir = 4
@@ -36794,6 +36830,13 @@
 "rWj" = (
 /turf/closed/wall/rust,
 /area/station/maintenance/department/cargo)
+"rWn" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/station/common/cryopods)
 "rWu" = (
 /turf/closed/wall/r_wall,
 /area/station/science/xenobiology)
@@ -38238,6 +38281,7 @@
 /area/station/command/heads_quarters/hop)
 "sEk" = (
 /obj/structure/flora/biolumi/lamp,
+/obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/water/jungle/biodome,
 /area/station/common/cryopods)
 "sEn" = (
@@ -46252,6 +46296,13 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
+"wQg" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/grass,
+/area/station/common/cryopods)
 "wQi" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
@@ -135066,8 +135117,8 @@ pQf
 opU
 vnB
 iwR
-mGL
-mGL
+kxX
+wQg
 mGL
 ipV
 ipV
@@ -135584,7 +135635,7 @@ gWO
 gWO
 gWO
 iJX
-hMH
+rWn
 iOB
 awe
 jIo
@@ -135841,9 +135892,9 @@ gWO
 yaz
 gWO
 iJX
-hMH
+rSO
 sEk
-awe
+gjK
 jIo
 uVu
 ouL
@@ -136100,7 +136151,7 @@ gWO
 iJX
 gXa
 cUH
-awe
+ged
 giY
 bcl
 bcl
